@@ -32,8 +32,8 @@
     <json-smart.version>2.5.2</json-smart.version>
     <aws.sdk.version>2.31.1</aws.sdk.version>
     <bedrock.runtime.version>2.31.1</bedrock.runtime.version>
-    <jetty.version>11.0.25</jetty.version>
-    <logback-core.version>1.5.18</logback-core.version>
+    <jetty.version>12.0.12</jetty.version>
+    <logback-core.version>1.5.25</logback-core.version>
     <logback-classic.version>1.5.18</logback-classic.version>
     <resilience4j-ratelimiter.version>2.3.0</resilience4j-ratelimiter.version>
     <kubernetes-client.version>21.0.1</kubernetes-client.version>
@@ -601,7 +601,7 @@
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>3.26.3</version>
+      <version>3.27.7</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -854,7 +854,7 @@
     <dependency>
       <groupId>com.mchange</groupId>
       <artifactId>c3p0</artifactId>
-      <version>0.10.1</version>
+      <version>0.12.0</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.woodstox</groupId>
